@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268 64" role="img" aria-labelledby="title">
+  <title>Ruang Rindu</title>
+  <path fill="#7545C8" d="M4 12.5 23.5 19v33L4 44.4z"/>
+  <path fill="#E879AD" d="M48 12.5 28.5 19v33L48 44.4z"/>
+  <path fill="#30213A" d="M24.8 18.6h2.4v34.8h-2.4z"/>
+  <text x="72" y="41" fill="#30213A" font-family="Georgia, serif" font-size="30" font-weight="600">Ruang Rindu</text>
+</svg>

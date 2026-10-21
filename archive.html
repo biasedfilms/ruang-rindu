@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c1020" /><script>!function(){try{var k='ruang-rindu-theme',v=localStorage.getItem(k),s=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=v==='light'||v==='dark'?v:s;document.documentElement.style.colorScheme=document.documentElement.dataset.theme}catch(e){}}();</script><meta name="view-transition" content="same-origin" /><meta name="description" content="Jelajahi surat-surat yang telah dipublikasikan di Ruang Rindu." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />            <link rel="stylesheet" href="css/styles.css?v=3.3.2" />
+    <title>Arsip Surat — Ruang Rindu</title>
+  </head>
+  <body class="page-archive" data-page="archive">
+    <a class="skip-link" href="#main-content" data-i18n="common.skip">Langsung ke isi</a>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="index.html" aria-label="Ruang Rindu, beranda"><img class="wordmark-mark" src="assets/ruang-rindu-mark.svg" alt="" aria-hidden="true" /><span>Ruang Rindu</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle><span class="sr-only" data-i18n="common.menuOpen">Buka navigasi</span><span aria-hidden="true" data-i18n="common.menu">Menu</span></button>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" data-i18n-aria-label="common.themeLight" aria-label="Gunakan mode terang"><span data-theme-icon data-icon="dark" aria-hidden="true"></span></button><nav class="site-nav" id="site-nav" data-i18n-aria-label="common.primaryNav" aria-label="Navigasi utama" data-nav><a href="archive.html" aria-current="page" data-i18n="common.archive">Arsip surat</a><a href="compose.html" class="nav-write-link"><span data-i18n="common.write">Tulis surat</span> <span aria-hidden="true">↗</span></a><div class="language-switcher" role="group" data-i18n-aria-label="language.label" aria-label="Bahasa"><button type="button" data-language="id" aria-pressed="true">ID</button><span aria-hidden="true">/</span><button type="button" data-language="en" aria-pressed="false">EN</button></div></nav>
+    </header>
+    <main id="main-content">
+      <section class="archive-hero page-intro">
+        <p class="eyebrow" data-i18n="archive.eyebrow">Arsip surat</p>
+        <h1><span data-i18n="archive.titleOne">Yang pernah</span> <em data-i18n="archive.titleTwo">dititipkan.</em></h1>
+        <p data-i18n="archive.intro">Pesan-pesan dari orang yang tak kamu kenal—dan mungkin, sedikit mirip denganmu.</p>
+      </section>
+      <section class="archive-controls" data-i18n-aria-label="archive.controlsLabel" aria-label="Cari dan saring surat">
+        <div class="search-field"><label class="sr-only" for="archive-search" data-i18n="archive.searchLabel">Cari dalam arsip</label><input id="archive-search" type="search" data-i18n-placeholder="archive.searchPlaceholder" placeholder="Cari kata, judul, atau nama…" autocomplete="off" /><span aria-hidden="true">⌕</span></div>
+        <div class="filter-row" role="group" data-i18n-aria-label="archive.categoriesLabel" aria-label="Kategori surat">
+          <button class="filter-button is-active" data-category="" data-i18n="archive.all" type="button">Semua</button>
+          <button class="filter-button" data-category="cinta" data-i18n="categories.cinta" type="button">Cinta</button>
+          <button class="filter-button" data-category="rindu" data-i18n="categories.rindu" type="button">Rindu</button>
+          <button class="filter-button" data-category="maaf" data-i18n="categories.maaf" type="button">Maaf</button>
+          <button class="filter-button" data-category="terima kasih" data-i18n="categories.terimaKasih" type="button">Terima kasih</button>
+          <button class="filter-button" data-category="perpisahan" data-i18n="categories.perpisahan" type="button">Perpisahan</button>
+          <button class="filter-button" data-category="lainnya" data-i18n="categories.lainnya" type="button">Lainnya</button>
+        </div>
+        <div class="archive-meta"><p data-result-count data-i18n="archive.preparing">Menyiapkan arsip…</p><label><span data-i18n="archive.sortLabel">Urutkan</span> <select data-sort-select aria-label="Urutkan surat" data-i18n-aria-label="archive.sortLabel"><option value="newest" data-i18n="archive.newest">Terbaru</option><option value="oldest" data-i18n="archive.oldest">Terlama</option></select></label></div>
+      </section>
+      <section class="archive-list-wrap" aria-labelledby="archive-list-title">
+        <h2 id="archive-list-title" class="sr-only" data-i18n="archive.listLabel">Daftar surat</h2>
+        <div class="archive-list" data-archive-list aria-live="polite" aria-busy="true"></div>
+        <div class="load-more-wrap"><button class="button button-outline" type="button" data-load-more hidden><span data-i18n="archive.loadMore">Muat lebih banyak</span><span aria-hidden="true">↓</span></button></div>
+      </section>
+      <section class="archive-writing-nudge"><p data-i18n="archive.nudge">Adakah sesuatu yang sedang kamu tahan?</p><a class="button button-ink" href="compose.html"><span data-i18n="common.write">Titipkan suratmu</span><span aria-hidden="true">↗</span></a></section>
+    </main>
+    <footer class="site-footer"><div class="footer-top"><a class="wordmark" href="index.html"><img class="wordmark-mark" src="assets/ruang-rindu-mark-light.svg" alt="" aria-hidden="true" /><span>Ruang Rindu</span></a><p data-i18n="common.footerLine">Untuk setiap kata yang perlu diberi ruang.</p></div><div class="footer-bottom"><span>© <span data-current-year></span> Ruang Rindu</span><span><span data-i18n="common.caredBy">Dirawat dengan tenang oleh</span> <strong>Mikael Kalesaran</strong></span><a href="compose.html" data-i18n="common.write">Tulis surat</a></div></footer>
+    <div class="toast-region" aria-live="polite" aria-atomic="true" data-toast-region></div>
+    <script type="module" src="js/app.js?v=3.3.2"></script><script type="module" src="js/pages/archive.js?v=3.3.0"></script>
+  </body>
+</html>

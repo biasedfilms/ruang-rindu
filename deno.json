@@ -1,0 +1,6 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "check": "deno check supabase/functions/submit-letter/index.ts supabase/functions/report-letter/index.ts"
+  }
+}

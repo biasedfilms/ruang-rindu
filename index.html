@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c1020" />
+    <script>!function(){try{var k='ruang-rindu-theme',v=localStorage.getItem(k),s=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.dataset.theme=v==='light'||v==='dark'?v:s;document.documentElement.style.colorScheme=document.documentElement.dataset.theme}catch(e){}}();</script>
+    <meta name="view-transition" content="same-origin" />
+    <meta name="description" content="Ruang surat anonim untuk hal-hal yang sulit diucapkan." />
+    <meta property="og:title" content="Ruang Rindu — surat untuk yang tak selalu bisa dikatakan" />
+    <meta property="og:description" content="Tulis, titipkan, dan temukan surat dari hati yang lain." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css?v=3.3.2" />
+    <title>Ruang Rindu</title>
+  </head>
+  <body class="page-home" data-page="home">
+    <a class="skip-link" href="#main-content" data-i18n="common.skip">Langsung ke isi</a>
+    <header class="site-header" data-header>
+      <a class="wordmark" href="index.html" data-i18n-aria-label="common.home" aria-label="Ruang Rindu, beranda">
+        <img class="wordmark-mark" src="assets/ruang-rindu-mark.svg" alt="" aria-hidden="true" />
+        <span>Ruang Rindu</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        <span class="sr-only" data-i18n="common.menuOpen">Buka navigasi</span><span aria-hidden="true" data-i18n="common.menu">Menu</span>
+      </button>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-pressed="false" data-i18n-aria-label="common.themeLight" aria-label="Gunakan mode terang"><span data-theme-icon data-icon="dark" aria-hidden="true"></span></button>
+      <nav class="site-nav" id="site-nav" data-i18n-aria-label="common.primaryNav" aria-label="Navigasi utama" data-nav>
+        <a href="archive.html" data-i18n="common.archive">Arsip surat</a>
+        <a href="compose.html" class="nav-write-link"><span data-i18n="common.write">Tulis surat</span> <span aria-hidden="true">↗</span></a>
+        <div class="language-switcher" role="group" data-i18n-aria-label="language.label" aria-label="Bahasa">
+          <button type="button" data-language="id" aria-pressed="true">ID</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-index" aria-hidden="true"><span>01</span><i></i><span data-i18n="home.indexLabel">Ruang untuk merasa</span></div>
+        <div class="hero-copy">
+            <p class="eyebrow reveal-item" data-i18n="home.eyebrow">Untuk hal-hal yang tak selalu bisa dikatakan</p>
+          <h1 id="hero-title" class="hero-title">
+              <span class="reveal-line" data-i18n="home.titleOne">Ada kata yang</span>
+              <em class="reveal-line" data-i18n="home.titleTwo">lebih berani</em>
+              <span class="reveal-line" data-i18n="home.titleThree">ketika dititipkan.</span>
+          </h1>
+            <p class="hero-intro reveal-item" data-i18n="home.intro">Ruang Rindu adalah tempat untuk menyusun rasa: cinta, maaf, terima kasih, atau perpisahan—dengan namamu, atau tanpa nama sama sekali.</p>
+          <div class="hero-actions reveal-item">
+              <a class="button button-ink" href="compose.html"><span data-i18n="common.write">Titipkan sebuah surat</span><span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="archive.html"><span data-i18n="common.readArchive">Baca surat yang sudah sampai</span> <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+
+        <button class="sealed-letter" type="button" data-hero-letter aria-expanded="false" aria-controls="hero-letter-note">
+          <span class="seal-stamp" aria-hidden="true"><img src="assets/ruang-rindu-mark.svg" alt="" /></span>
+            <span class="seal-address"><span data-i18n="home.sealLineOne">untuk</span><br /><span data-i18n="home.sealLineTwo">yang masih</span><br /><span data-i18n="home.sealLineThree">diingat</span></span>
+            <span class="seal-instruction"><span data-i18n="home.sealInstruction">buka pelan-pelan</span> <span aria-hidden="true">↓</span></span>
+        </button>
+        <article id="hero-letter-note" class="hero-note" data-hero-note aria-hidden="true">
+            <p class="note-label" data-i18n="home.noteLabel">sebuah pengingat kecil</p>
+            <p data-i18n="home.noteBody">Beberapa perasaan tidak membutuhkan jawaban untuk tetap layak menemukan tempatnya.</p>
+            <span class="note-signature" data-i18n="home.noteSignature">— ruang rindu</span>
+            <button type="button" class="note-close" data-note-close><span class="sr-only" data-i18n="home.closeNote">Tutup surat</span><span aria-hidden="true">×</span></button>
+        </article>
+          <p class="hero-side-note" aria-hidden="true" data-i18n="home.sideNote">ditulis dengan pelan
+dibaca tanpa buru-buru</p>
+          <div class="hero-scroll-hint" aria-hidden="true"><span data-i18n="home.scrollHint">gulir untuk menemukan</span><i></i></div>
+      </section>
+
+      <section class="manifesto section-pad" aria-labelledby="manifesto-title" data-reveal>
+        <div class="section-number" aria-hidden="true">02</div>
+        <div class="manifesto-copy">
+          <p class="eyebrow" data-i18n="home.manifestoEyebrow">Sebuah ruang yang tak menuntut penjelasan</p>
+          <h2 id="manifesto-title" data-i18n="home.manifestoTitle">Tidak semua yang kita simpan harus terus menjadi beban.</h2>
+          <div class="manifesto-detail">
+            <p data-i18n="home.manifestoBody">Di sini, surat tak perlu rapi untuk menjadi berarti. Kamu boleh datang dengan kalimat yang patah, nama yang ingin disembunyikan, atau perasaan yang belum selesai.</p>
+            <a class="text-link" href="compose.html"><span data-i18n="home.manifestoLink">Mulai dari satu kalimat</span> <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works section-pad" aria-labelledby="how-title" data-reveal>
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="home.howEyebrow">Cara kerjanya</p>
+          <h2 id="how-title" data-i18n="home.howTitle">Sederhana, seperti menulis di kertas yang bersih.</h2>
+        </div>
+        <ol class="steps-list">
+          <li><span class="step-no">I</span><h3 data-i18n="home.stepOneTitle">Tulis tanpa terburu-buru.</h3><p data-i18n="home.stepOneBody">Pilih kata-kata yang paling jujur; sisanya boleh menunggu.</p></li>
+          <li><span class="step-no">II</span><h3 data-i18n="home.stepTwoTitle">Pilih cara hadir.</h3><p data-i18n="home.stepTwoBody">Gunakan namamu, nama samaran, atau biarkan surat itu anonim.</p></li>
+          <li><span class="step-no">III</span><h3 data-i18n="home.stepThreeTitle">Titipkan ketika siap.</h3><p data-i18n="home.stepThreeBody">Setiap surat akan langsung hadir di arsip setelah berhasil dikirim.</p></li>
+        </ol>
+      </section>
+
+      <section class="archive-teaser section-pad" aria-labelledby="teaser-title" data-reveal>
+        <div class="archive-teaser-top">
+          <div>
+            <p class="eyebrow" data-i18n="home.archiveEyebrow">Dari arsip yang terus bertumbuh</p>
+            <h2 id="teaser-title" data-i18n="home.archiveTitle">Surat-surat yang telah sampai.</h2>
+          </div>
+          <a href="archive.html" class="text-link"><span data-i18n="common.enterArchive">Masuk ke arsip</span> <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="featured-letters" data-featured-letters aria-live="polite" aria-busy="true">
+          <div class="letter-skeleton"><span></span><span></span><span></span></div>
+          <div class="letter-skeleton"><span></span><span></span><span></span></div>
+          <div class="letter-skeleton"><span></span><span></span><span></span></div>
+        </div>
+      </section>
+
+      <section class="closing-cta" aria-labelledby="closing-title" data-reveal>
+        <p class="eyebrow" data-i18n="home.closingEyebrow">Jika ada yang ingin tinggal sebentar</p>
+        <h2 id="closing-title"><span data-i18n="home.closingTitleOne">Jangan biarkan</span><br /><em data-i18n="home.closingTitleTwo">hanya berputar</em><br /><span data-i18n="home.closingTitleThree">di kepala.</span></h2>
+        <a class="round-cta" href="compose.html"><span data-i18n="home.closingCta">Tulis
+sekarang</span><b aria-hidden="true">↗</b></a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-top"><a class="wordmark" href="index.html"><img class="wordmark-mark" src="assets/ruang-rindu-mark-light.svg" alt="" aria-hidden="true" /><span>Ruang Rindu</span></a><p data-i18n="common.footerLine">Untuk setiap kata yang perlu diberi ruang.</p></div>
+      <div class="footer-bottom"><span>© <span data-current-year></span> Ruang Rindu</span><span><span data-i18n="common.projectOf">A Project of</span> <strong>Mikael Kalesaran</strong></span><a href="archive.html" data-i18n="common.archive">Arsip surat</a></div>
+    </footer>
+    <div class="toast-region" aria-live="polite" aria-atomic="true" data-toast-region></div>
+    <script type="module" src="js/app.js?v=3.3.2"></script>
+    <script type="module" src="js/pages/home.js?v=3.3.0"></script>
+  </body>
+</html>

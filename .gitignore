@@ -1,0 +1,13 @@
+# Private environment files — never publish, including examples
+.env
+.env.*
+**/.env
+**/.env.*
+**/*.env
+.env.example
+**/.env.example
+
+# Local development files
+.DS_Store
+node_modules/
+supabase/.temp/

@@ -1,0 +1,11 @@
+{
+  "name": "ruang-rindu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check js/app.js js/config.js js/i18n.js js/supabase.js js/utils.js js/components/ui.js js/pages/home.js js/pages/archive.js js/pages/compose.js js/pages/letter.js",
+    "check:edge": "deno task check",
+    "dev": "python3 -m http.server 8080 --bind localhost"
+  }
+}
